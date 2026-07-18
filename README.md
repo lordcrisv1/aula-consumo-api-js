@@ -1,6 +1,6 @@
 # Aula Prática: Consumo de APIs em JavaScript
 
-Como Professor, Desenvolvi repositório para a aula teste do processo seletivo do SENAI-SP (Edital 104-2026).
+Como Professor, desenvolvi repositório para a aula teste do processo seletivo do SENAI-SP (Edital 104-2026).
 
 ## 🎯 Objetivo da Aula
 Capacitar os alunos a compreenderem o funcionamento de requisições assíncronas no ecossistema JavaScript, aplicando validações de dados (Boas Práticas) e tratamento de exceções (Tratamento de Erros) na integração com Serviços Web.

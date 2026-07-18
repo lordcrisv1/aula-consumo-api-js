@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de CEP - Aula Prática</title>
+    <!-- Vinculando o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <h2>Buscador de CEP</h2>
+        
+        <div class="input-group">
+            <input type="text" id="cepInput" placeholder="Digite o CEP (Ex: 01001000)" maxlength="8">
+        </div>
+        
+        <button onclick="buscarEndereco()" class="btn-buscar">
+            Buscar Endereço
+        </button>
+
+        <!-- Área para exibir o resultado ou o erro -->
+        <div id="resultado" class="resultado-box hidden">
+            <p class="resultado-item"><strong>Logradouro:</strong> <span id="rua"></span></p>
+            <p class="resultado-item"><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p class="resultado-item"><strong>Cidade/UF:</strong> <span id="cidade"></span></p>
+        </div>
+    </div>
+
+    <!-- Vinculando o arquivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Configurações Globais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Principal Card */
+.card-container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Tipografia */
+h2 {
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Campo de Entrada (Input) */
+.input-group {
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e1e4e8;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0066cc; /* Azul padrão corporativo/tecnologia */
+}
+
+/* Botão de Busca */
+.btn-buscar {
+    width: 100%;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-buscar:hover {
+    background-color: #0052a3;
+}
+
+/* Área de Resultado */
+.resultado-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #0066cc;
+    border-radius: 4px;
+}
+
+.resultado-item {
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    margin-bottom: 0.5rem;
+}
+
+.resultado-item:last-child {
+    margin-bottom: 0;
+}
+
+.resultado-item strong {
+    color: #2d3748;
+}
+
+/* Classe utilitária para esconder elementos (controle via JS) */
+.hidden {
+    display: none !important;
+}
